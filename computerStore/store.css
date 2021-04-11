@@ -1,0 +1,67 @@
+.container{
+    text-align: center;
+    position: relative;
+    top: 63px;
+}
+.nav-item{
+    color: rgba(0,0,0,0.87);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+}
+.panel{
+    background-color: gray;
+    position: relative;
+    bottom: 126px;
+    padding: 20px;
+    width: 1498px;
+    right: 10px;
+}
+body{
+    background-color: #E9ECEF;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(3, 150px);
+    grid-gap: 10px;
+    position: relative;
+    top: 60px;
+    margin: 40px auto;
+    padding: 0;
+    width: 830px;
+    text-align: end;
+    grid-auto-rows: 100px;
+    grid-auto-columns: 100px;
+    grid-row-gap: 250px;
+    grid-column-gap: 50px;
+}
+.grid-container img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    grid-auto-rows: 100px;
+    grid-auto-columns: 100px;
+}
+.card {
+    border-color: black;
+}
+.card-body1{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    position: relative;
+    top: 70px;
+}
+.us{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+.about-us{
+    background-image: url(https://images.pexels.com/photos/2569997/pexels-photo-2569997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+
+
